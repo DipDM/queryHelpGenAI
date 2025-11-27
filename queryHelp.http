@@ -1,0 +1,6 @@
+@queryHelp_HostAddress = http://localhost:5159
+
+GET {{queryHelp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
