@@ -1,0 +1,40 @@
+## .gitignore (recommended)
+
+
+# Visual Studio / Rider / VS Code
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# EF migrations (optionally keep)
+**/Migrations/**
+
+# User secrets
+secrets.json
+
+# dotnet
+*.db
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+
+# npm
+node_modules/
+
+# Coverage
+coverage/
+
+# docker-compose
+.env
